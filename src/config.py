@@ -14,14 +14,19 @@ class Settings(BaseSettings):
 
     """Paths Configuration"""
 
-    BROADCAST_VIDEO_PATH :Path = Path("")
-    FIELD_IMAGE : Path = Path("")
+    SOURCE_VIDEO :Path = Path("artifacts\Car_highway.mp4")
     OUTPUT_PATH : Path = Path("artifacts/unified_output.mp4")
 
 
     """Model Configuration"""
     PRETRAINED_YOLO_MODEL :Path = Path("")
 
+
+    """Constants"""
+    REAL_WORLD_WIDTH_M :float= 2.5
+    REAL_WORLD_HEIGHT_M :float= 5.0
+    VIDEO_FPS :int= 50 
+    KMH_CONVERSION_FACTOR :float= 3.6
 
 
 

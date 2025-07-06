@@ -27,10 +27,10 @@ def get_points():
     Main function for loading video and displaying the first frame.
     So we can capture mouse clicks to select points for homography.
     """
-    video_capture = cv2.VideoCapture(str())
+    video_capture = cv2.VideoCapture(str(settings.SOURCE_VIDEO))
 
     if not video_capture.isOpened():
-        logger.error(f"Error could not open video file in points_utils.py with path : {""} ")
+        logger.error(f"Error could not open video file in points_utils.py with path : {settings.SOURCE_VIDEO} ")
         return
     
 

@@ -5,7 +5,7 @@
 
  
 
----
+<!-- ---
 
 ## 🧭 Table of Contents
 1. [Introduction](#introduction)
@@ -43,7 +43,6 @@ You can run the Cross-Camera-Player-Mapping project directly on your local machi
 ✅ Prerequisites
 - **Python 3.11+**
 - **uv installed globally**
-- **ffmpeg** must be installed before running the project- [Download](https://ffmpeg.org/download.html)
 
 <br>
 
@@ -52,8 +51,6 @@ pip install uv
 ```
 
 ```bash
-git clone https://github.com/Lakshayb143/Cross-Camera-Player-Mapping
-cd Cross-Camera-Player-Mapping
 
 uv venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
@@ -68,10 +65,8 @@ uv run application.py # running the main pipeline
 ## Project Structure
 
 ```html
-Cross-Camera-Player-Mapping/
 │
 ├── artifacts/                    # Contains input videos and model weights
-                 # YOLO pretrained model
 │
 ├── docs/                         # documentation of the project
 │
@@ -90,13 +85,13 @@ Cross-Camera-Player-Mapping/
 
 ---
 
-## 🎥 Input Description
+## Input Description
 
 
 
 ---
 
-## 🧱 System Architecture
+##  System Architecture
 
 
 ---
@@ -138,5 +133,5 @@ Cross-Camera-Player-Mapping/
 
 
 
-## 👤 Author
-Lakshay 
+##  Author
+Lakshay  -->
